@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>회원 가입 양식</title>
+</head>
+<body>
+	<h3>회원 가입 양식</h3>
+	<form>
+		<table>
+			<tr>
+				<td>- 아이디</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>- 비밀번호</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>- 비밀번호 확인</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>- 이름</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>- 성별</td>
+				<td><input type="radio" name="sex" selected>여성<input type="radio" name="sex">남성</td>
+			</tr>
+			<tr>
+				<td>- 전화번호</td>
+				<td><select>
+					<option>02</option>
+					<option>041</option>
+					<option>031</option>
+					<option>033</option>
+					<option>053</option>
+				</select> - <input class="hp" type="text"> - <input class="hp" type="text"></td>
+			</tr>
+			<tr>
+				<td>- 이메일</td>
+				<td><input id="email1" type="text"> @ <select id="email2">
+					<option>선택</option>
+					<option>naver.com</option>
+					<option>hanmail.net</option>
+					<option>gmail.com</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>- 자기소개</td>
+				<td><textarea cols="50" rows="5"></textarea></td>
+			</tr>
+		</table>
+	</form>
